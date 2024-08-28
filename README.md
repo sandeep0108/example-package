@@ -1,5 +1,5 @@
 # Clone the repository
-  https://github.com/sandeep0108/example-package.git
+  ```https://github.com/sandeep0108/example-package.git```
 
 # Just run the command
   composer install
