@@ -1,0 +1,26 @@
+{
+    "name": "laravelnews/feeds",
+    "description": "Get articles from Laravel-News.com",
+    "type": "library",        
+    "autoload": {
+        "psr-4": {
+            "LaravelNews\\Feed\\": "src/"
+        }
+    },    
+    "authors": [
+        {
+            "name": "Sandeep Thakkar",
+            "email": "sandeepthakkar@topsinfosolutions.com"
+        }
+    ],
+    "require-dev": {
+        "mockery/mockery": "^1.6",
+        "pestphp/pest": "^2.35"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        },
+        "sort-packages": true
+    }
+}
